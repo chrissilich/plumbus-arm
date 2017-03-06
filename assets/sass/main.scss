@@ -1,0 +1,63 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ccc;
+}
+
+.screen {
+	position: relative;
+	width: 1281px;
+	height: 838px;
+	background-image: url("../img/screen-without-arm.png");
+
+	.arm {
+		position: absolute;
+	}
+	.arm1 {
+		background-image: url("../img/arm-part-1.png");
+		width: 79px;
+		height: 36px;
+		top: 629px;
+		left: 268px;
+		transform-origin: 18px 18px;
+		transform: rotate(55deg);
+	}
+	.arm2 {
+		background-image: url("../img/arm-part-2.png");
+		width: 87px;
+		height: 42px;
+		top: 2px;
+		left: 64px;
+		transform-origin: 20px 20px;
+		transform: rotate(-30deg);
+	}
+	.arm3 {
+		background-image: url("../img/arm-part-3.png");
+		width: 256px;
+		height: 132px;
+		top: -43px;
+		left: 70px;
+		transform-origin: 12px 71px;
+		transform: rotate(-25deg);
+	}
+}
